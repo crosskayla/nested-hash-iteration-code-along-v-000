@@ -22,5 +22,7 @@ require 'pry'
       end
     end
   end
-
+  
+puts contacts
 remove_strawberry(contacts)
+puts contacts
