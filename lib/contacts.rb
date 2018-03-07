@@ -1,8 +1,5 @@
 require 'pry'
 
-def remove_strawberry(contacts)
-  require 'pry'
-
   contacts = {
       "Jon Snow" => {
         name: "Jon",
@@ -28,3 +25,5 @@ def remove_strawberry(contacts)
     }
   end
 end
+
+remove_strawberry
