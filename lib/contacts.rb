@@ -14,10 +14,9 @@ require 'pry'
   }
 
   def remove_strawberry(contacts)
-    contacts.each do |key, attribute|
-      binding.pry
-      attributes.each do |value, description|{
-        if value == favorite_ice_cream_flavors
+    contacts.each do |key, hash|
+      hash.each do |value, description|{
+        if value == :favorite_ice_cream_flavors
           description.delete("strawberry")
         end
       end
